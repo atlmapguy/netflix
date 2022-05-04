@@ -1,1 +1,4 @@
-# netflix
+Objectives
+The goal of this project is to develop a recommender system through collaborative filtering. Four different recommender algorithms are used in this study and their performances are evaluated and compared to determine which algorithm is best for Netflix’s business model.
+
+This project uses the Netflix Movies and TV Shows dataset. It is collected from a third-party search engine called Flixable. The dataset consists of the main movie titles table and 4 text files each containing 100,480 ratings from 480,189 customers. The ratings are given to 17,770 movie titles. The text files contain 3 columns consisting of a unique MovieID, customer rating (1 to 5), and date of grade. The movie title dataset consists of 3 columns of the corresponding unique MovieID, year of release and title. Due to limited processing space and speed, only one of the text files are joined to the movie title data through the common MovieID element.
